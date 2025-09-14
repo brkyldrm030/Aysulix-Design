@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"; // ✅ hinzufügen
-import Arrow from "../assets/Arrow.png";
+import Arrow from "../assets/arrow.png";
 
 const container = {
   hidden: { opacity: 0 },
@@ -36,7 +36,7 @@ const Card = () => {
           </p>
           <div className="flex items-center gap-2 mt-auto">
             <img
-              src={Arrow}
+              src={arrow}
               alt="Arrow"
               className="w-[26px] h-[26px] rotate-[-50deg]"
             />
@@ -55,7 +55,7 @@ const Card = () => {
           </p>
           <div className="flex items-center gap-2 mt-auto">
             <img
-              src={Arrow}
+              src={arrow}
               alt="Arrow"
               className="w-[26px] h-[26px] rotate-[-50deg]"
             />
@@ -74,7 +74,7 @@ const Card = () => {
           </p>
           <div className="flex items-center gap-2 mt-auto">
             <img
-              src={Arrow}
+              src={arrow}
               alt="Arrow"
               className="w-[26px] h-[26px] rotate-[-50deg]"
             />
@@ -93,7 +93,7 @@ const Card = () => {
           </p>
           <div className="flex items-center gap-2 mt-auto">
             <img
-              src={Arrow}
+              src={arrow}
               alt="Arrow"
               className="w-[26px] h-[26px] rotate-[-50deg]"
             />
