@@ -10,7 +10,7 @@ import Footer from "./sections/Footer";
 function App() {
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-black overflow-x-clip">
         <Navbar />
         <Header />
         <Card />
