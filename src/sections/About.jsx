@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion"; // ✅ hinzufügen
+import { motion } from "framer-motion";
 import Aboutimg from "../assets/Aboutimg.jpg";
 
 const textVariant = {
