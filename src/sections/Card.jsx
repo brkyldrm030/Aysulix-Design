@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"; // ✅ hinzufügen
-import Arrow from "../assets/arrow.png";
+import arrow from "../assets/arrow.png";
 
 const container = {
   hidden: { opacity: 0 },
